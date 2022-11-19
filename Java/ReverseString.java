@@ -1,29 +1,28 @@
-package com.Java;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
-// Program to reverse string.
+// How to reverse a string in java?
+import java.util.Scanner;
 
 public class ReverseString {
-    public static void main(String[] args) throws IOException {
-        InputStreamReader iobj = new InputStreamReader(System.in);
-        BufferedReader bobj = new BufferedReader(iobj);
+    public static void main(String[] args) throws  ArrayIndexOutOfBoundsException{
+        System.out.println("Please Enter String to Reverse :");
+        Scanner input = new Scanner(System.in);
 
-        String str = bobj.readLine();
-        char c;
-        String nstr = "";
+        String stringToReverse = input.nextLine();
 
-        for(int i = 0;i< str.length(); i++)
-        {
-            c = str.charAt(i);
-            nstr = c+nstr;
+        ReverseString obj = new ReverseString();
+        obj.stringReverse(stringToReverse);
+
+    }
+
+    private void stringReverse(String stringToReverse)
+    {
+        char[] reversedString = new char[stringToReverse.length()];
+        char[] stringArray = stringToReverse.toCharArray();
+        for (int iCnt = stringArray.length -1,j = 0; iCnt>=0; j++,iCnt--) {
+            reversedString[j] = stringArray[iCnt];
         }
 
-        System.out.println(nstr);
+        System.out.println(reversedString);
 
     }
 }
-
 
