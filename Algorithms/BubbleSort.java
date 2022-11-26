@@ -12,16 +12,17 @@ public class BubbleSort {
         Scanner input = new Scanner(System.in);
 
         //Array Size from user
+        System.out.println("Please enter your array size : ");
         int arraySize = input.nextInt();
         int Arr[] = new int[arraySize];
 
         for (int k = 0; k< Arr.length; k++)
         {
-            System.out.println("Enter Array Element number "+k+" "+":");
+            System.out.println("Enter Array Element number "+(k+1)+" "+":");
             Arr[k] = input.nextInt();
         }
 
-        System.out.println("Your Array is :"+Arr);
+        System.out.println("Your Array is :"+(Arrays.toString(Arr)));
         
         bubbleSort(Arr);
         System.out.println("Array After Sorting is :");
