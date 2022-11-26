@@ -18,7 +18,6 @@ public class LinearSearch {
             System.out.println("Enter Array element number "+(i+1)+": ");
             Arr[i] = input.nextInt();
         }
-
         System.out.println(Arrays.toString(Arr));
 
         System.out.println("Enter target element to search : ");
