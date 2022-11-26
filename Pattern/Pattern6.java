@@ -2,7 +2,8 @@
 // Problem Statement 6 : Accept num from user of row and column and display pattern
 /////////////////////////////////////////////////////////////////////////////////////////
 
-/* Pattern to display
+/*
+Pattern to display
 
  *    *   *
  *    *   *
