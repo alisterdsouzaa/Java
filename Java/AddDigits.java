@@ -2,7 +2,6 @@
     Problem Statement : Add each digit of the inputted number.
  */
 package Java;
-
 import java.util.Scanner;
 
 public class AddDigits {
