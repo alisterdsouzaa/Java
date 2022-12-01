@@ -4,10 +4,10 @@
 
 // ip = 5
 // op = A B C D E
-package com.Pattern;
+package Pattern;
 import java.util.Scanner;
 
-public class Pattern2 {
+public class Pattern02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please provide value : ");

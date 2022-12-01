@@ -1,22 +1,20 @@
 /////////////////////////////////////////////////////////////////////////////////////////
-// Problem Statement 8 : Accept num from user of row and column and display pattern
+// Problem Statement 7 : Accept num from user of row and column and display pattern
 /////////////////////////////////////////////////////////////////////////////////////////
 
 /* Pattern to display
 
-    Row = 4  Column = 4
-
-   1 1 1 1
-   2 2 2 2
-   3 3 3 3
-   4 4 4 4
-
+    1  2  3
+    1  2  3
+    1  2  3
+    1  2  3
 */
-package com.Pattern;
+
+package Pattern;
 
 import java.util.Scanner;
 
-public class Pattern8 {
+public class Pattern07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -35,11 +33,10 @@ public class Pattern8 {
         for (int i = 1; i<=iRow; i++ ) {
             for (int j = 1; j<=iColumn; j++)
             {
-                System.out.print(i+"\t");
+                System.out.print(j+"\t");
             }
             System.out.println();
 
         }
     }
 }
-

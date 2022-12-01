@@ -7,11 +7,11 @@
  O/P = 2 4 6 8 10 12 14 16
  */
 
-package com.Pattern;
+package Pattern;
 
 import java.util.Scanner;
 
-public class Pattern5 {
+public class Pattern05 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

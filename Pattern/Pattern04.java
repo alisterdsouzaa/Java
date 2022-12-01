@@ -5,11 +5,11 @@
 // ip = 4
 // op = # 1 * # 2 * # 3 * # 4 * # 5 *
 
-package com.Pattern;
+package Pattern;
 
 import java.util.Scanner;
 
-public class Pattern4 {
+public class Pattern04 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

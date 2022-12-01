@@ -1,11 +1,11 @@
 /////////////////////////////////////////////////////////////////////////
 // Problem Statement 0 : Accept number from user and display pattern.
 ////////////////////////////////////////////////////////////////////////
-package com.Pattern;
+package Pattern;
 
 import java.util.Scanner;
 
-public class Pattern1 {
+public class Pattern01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

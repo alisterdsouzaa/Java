@@ -11,13 +11,13 @@
    5 4 3 2 1
 
 */
-package com.Pattern;
+package Pattern;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Pattern9 {
+public class Pattern09 {
     public static void main(String[] args) throws IOException {
         InputStreamReader obj = new InputStreamReader(System.in);
         BufferedReader boj = new BufferedReader(obj);
