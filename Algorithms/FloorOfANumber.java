@@ -1,14 +1,14 @@
 /**
- * Problem Statement : Find Ceiling of the number (target element).
+ * Problem Statement : Find Floor of the number (target element).
  */
 
-// Ceiling of a number is the smallest number  >= to target
-package Java;
+// Floor of a number is the greatest number  <= to target
+package Algorithms;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class CeilingOfANumber {
+public class FloorOfANumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -29,12 +29,12 @@ public class CeilingOfANumber {
         System.out.println("Please enter target array element to search : ");
         int target = input.nextInt();
 
-        int iResult = ceilingLogic(Arr, target);
+        int iResult = FloorLogic(Arr, target);
         System.out.println("Element present a index number "+ iResult);
     }
 
     // Function performing Binary Search to find target element.
-    static int ceilingLogic(int[] arr, int target){
+    static int FloorLogic(int[] arr, int target){
         int start = 0, end = arr.length -1;
 
         while (start<=end){
@@ -50,7 +50,8 @@ public class CeilingOfANumber {
                 return mid;
             }
         }
-        // When while breaks, start = end + 1. ie) our smallest num >= to target.
-        return  start;
+        // When while breaks, start = end + 1. ie) our Greatest num <= to target.
+        return  end;
     }
 }
+
