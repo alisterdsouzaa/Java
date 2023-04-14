@@ -16,6 +16,10 @@ public class MultiplicationOfFactors {
     }
 
     static int MultiplicationOfFactorss(int iNo) {
+        if(iNo < 0){
+            System.out.println("Negative Value.");
+            return 0;
+        }
         int iCnt;
         int iFactor = 1;
 
