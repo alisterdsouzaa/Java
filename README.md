@@ -7,21 +7,14 @@ Each folder in this repository corresponds to a different concept or project tha
 Concepts Covered
 
 So far, I've covered the following Java concepts in this repository:
-    
- - Algorithms
 
+- Algorithms 
 -Bitwise
-
 -CollectionFramework
-
 -DSA
-
 -Java Basic ( Random Programs ).
-
 -LabAssignments ( Lab assignments of a college lab book ).
-
 -Pattern Printing questions
-
 -Recursion 
 
 Contributions
