@@ -9,12 +9,19 @@ Concepts Covered
 So far, I've covered the following Java concepts in this repository:
     
  - Algorithms
+
 -Bitwise
+
 -CollectionFramework
+
 -DSA
+
 -Java Basic ( Random Programs ).
+
 -LabAssignments ( Lab assignments of a college lab book ).
+
 -Pattern Printing questions
+
 -Recursion 
 
 Contributions
