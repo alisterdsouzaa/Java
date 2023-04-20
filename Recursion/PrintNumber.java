@@ -1,9 +1,9 @@
 /**
  *    Print numbers using recursion.
  * =============================================
- * File Path     : Queue.java
+ * File Path     : PrimeNumber.java
  * Author        : Alister D'Souza
- * Date          : 12/02/2023
+ * Date          : 20/04/2023
  *
  */
 package Recursion;
