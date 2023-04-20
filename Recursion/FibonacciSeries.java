@@ -1,7 +1,7 @@
 /**
  *    Fibonacci numbers using recursion.
  * =============================================
- * File Path     : PrimeNumber.java
+ * File Path     : Fibonacci.java
  * Author        : Alister D'Souza
  * Date          : 20/04/2023
  *
